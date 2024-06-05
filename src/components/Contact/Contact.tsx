@@ -55,13 +55,13 @@ const Contact: React.FC<Readonly<EmailTemplateProps>> = ({ name, subject, phone,
 
             if (data.error) {
                 swal.fire({
-                    title: 'Error',
+                    title: 'Error sending Email',
                     text: 'Error sending the email',
                     icon: 'error',
                 });
             } else {
                 swal.fire({
-                    title: 'Correo enviado',
+                    title: 'Email Sent',
                     text: 'Thank you for contacting us! We will get in touch with you as soon as possible.',
                     icon: 'success',
                 });
