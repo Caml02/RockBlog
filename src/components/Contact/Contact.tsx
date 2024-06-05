@@ -131,7 +131,7 @@ const Contact: React.FC<Readonly<EmailTemplateProps>> = ({ name, subject, phone,
                                         />
                                       <label htmlFor="message" className="form-label">Message</label>
                                     </div>
-                                    <button type="submit" className="mb-3 btn btn-primary">Send <i className="bi bi-caret-right-fill"></i></button>
+                                    <button type="submit" className="mb-3 button">Send <i className="bi bi-caret-right-fill"></i></button>
                                 </form>
                             </div>
                         </div>                       

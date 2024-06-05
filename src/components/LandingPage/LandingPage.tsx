@@ -32,9 +32,9 @@ const LandingPage = () => {
                                 <h5 className="card-title fw-bold">Kelsi Monahan</h5>
                                 <p className="card-text fw-bold fs-3 text-warning">Qui occaecati vero et quibusdam non</p>
                                 <p className="card-text"><small className="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error velit asperiores dolorem libero. Nobis</small></p>
-                                <button className="btn btn-warning">
-                                    <a className="nav-link" href="/article">Read More</a>
-                                </button>
+                                    <Link className="button" href="/Concert">
+                                        Read More
+                                    </Link>
                             </div>
                         </div>
                     </div>
@@ -55,7 +55,7 @@ const LandingPage = () => {
                                 <h5 className="card-title fw-bold">Mrs. Alexanne Schneider</h5>
                                 <p className="card-text fw-bold fs-3 text-warning">Arquitecto quos rem unde quia accusantium</p>
                                 <p className="card-text"><small className="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error velit asperiores dolorem libero. Nobis</small></p>
-                                    <Link className="btn btn-warning" href="/article">
+                                    <Link className="button" href="/Concert">
                                         Read More
                                     </Link>
                             </div>
@@ -84,6 +84,9 @@ const LandingPage = () => {
                                         <h5 className="card-title fw-bold">Mrs. Alexanne Schneider</h5>
                                         <p className="card-text fw-bold fs-3 text-warning">Arquitecto quos rem unde quia accusantium</p>
                                         <p className="card-text"><small className="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error velit asperiores dolorem libero. Nobis</small></p>
+                                        <Link className="button" href="/Concert">
+                                            Read More
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -107,9 +110,12 @@ const LandingPage = () => {
                                 </div>
                                 <div className="col-md-8">
                                     <div className="card-body">
-                                        <h5 className="card-title fw-bold">Mrs. Alexanne Schneider</h5>
-                                        <p className="card-text fw-bold fs-3 text-warning">Arquitecto quos rem unde quia accusantium</p>
+                                        <h5 className="card-title fw-bold">Ibrahim Statterfield</h5>
+                                        <p className="card-text fw-bold fs-3 text-warning">Deleniti et omnis aliquid consequuntur</p>
                                         <p className="card-text"><small className="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error velit asperiores dolorem libero. Nobis</small></p>
+                                        <Link className="button" href="/Concert">
+                                            Read More
+                                        </Link>
                                     </div>
                                 </div>
                             </div>

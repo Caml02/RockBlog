@@ -7,3 +7,38 @@ body {
 
 }
 
+
+.button {
+    background-color: #F76B1C;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    &:hover {
+        background-color: rgba(130, 50, 4, 0.9);
+        color: white;
+    }
+
+}
+
+/* styles.css */
+.navbar .nav-link.active {
+    padding: 5px;
+    color: #F76B1C;
+    border-radius: 0.25rem;
+}
+
+.navbar .nav-link {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar .nav-link:hover {
+    color: #fff;
+}

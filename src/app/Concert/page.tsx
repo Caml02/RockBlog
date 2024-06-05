@@ -2,7 +2,7 @@
 import dynamic from 'next/dynamic';
 import { Suspense } from 'react';
 
-const Article = dynamic(() => import('@/components/Article'), {
+const Concert = dynamic(() => import('@/components/Concert'), {
   ssr: false
 }); 
 
@@ -11,7 +11,7 @@ export default function Home() {
   return (
       <>
         <Suspense>
-          <Article/>
+          <Concert/>
         </Suspense>
       </>
   )

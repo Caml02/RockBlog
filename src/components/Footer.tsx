@@ -8,10 +8,15 @@ const Footer = () => {
                             <a className="nav-link px-2 text-muted" href="/">Home</a>
                         </li>
                         <li>
-                            <a className="nav-link px-2 text-muted" href="/article">Articles</a>
+                            <a className="nav-link px-2 text-muted" href="/Concert">Articles</a>
                         </li>
                         <li>
-                            <a className="nav-link px-2 text-muted" href="/contact">Contact</a>
+                            <a className="nav-link px-2 text-muted" 
+                                data-bs-toggle="modal" 
+                                data-bs-target="#ContactModal"
+                            >
+                                Contact
+                            </a>
                         </li>
                     </ul>
                     <p className="text-center text-muted">© 2024 Company, Inc</p>

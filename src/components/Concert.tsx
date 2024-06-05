@@ -5,7 +5,7 @@ import Image from "next/image";
 import MainArticle from "@/img/MainArticle.jpg"
 
 
-const Article = () => {
+const Concert = () => {
     return (
         <>  
             <NavBar />
@@ -41,4 +41,4 @@ const Article = () => {
     );
 }
 
-export default Article;
+export default Concert;
